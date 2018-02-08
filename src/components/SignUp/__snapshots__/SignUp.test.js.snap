@@ -1,0 +1,19 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`SignUp 1`] = `
+<div
+  className="box"
+>
+  <div
+    className="logo"
+  >
+    <Logo />
+  </div>
+  <p
+    className="headding"
+  >
+    Crie sua conta
+  </p>
+  <Connect(Form) />
+</div>
+`;

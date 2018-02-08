@@ -1,0 +1,83 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Indicator renders 1`] = `
+<div
+  className="indicator indicatorDefault"
+/>
+`;
+
+exports[`Indicators renders 1`] = `
+<div
+  className="indicators"
+>
+  <Indicator
+    key="0"
+    style="Default"
+  />
+  <Indicator
+    key="1"
+    style="Default"
+  />
+  <Indicator
+    key="2"
+    style="Default"
+  />
+</div>
+`;
+
+exports[`Indicators renders 2`] = `
+<div
+  className="indicators"
+>
+  <Indicator
+    key="0"
+    style="Danger"
+  />
+  <Indicator
+    key="1"
+    style="Default"
+  />
+  <Indicator
+    key="2"
+    style="Default"
+  />
+</div>
+`;
+
+exports[`Indicators renders 3`] = `
+<div
+  className="indicators"
+>
+  <Indicator
+    key="0"
+    style="Waring"
+  />
+  <Indicator
+    key="1"
+    style="Waring"
+  />
+  <Indicator
+    key="2"
+    style="Default"
+  />
+</div>
+`;
+
+exports[`Indicators renders 4`] = `
+<div
+  className="indicators"
+>
+  <Indicator
+    key="0"
+    style="Success"
+  />
+  <Indicator
+    key="1"
+    style="Success"
+  />
+  <Indicator
+    key="2"
+    style="Success"
+  />
+</div>
+`;

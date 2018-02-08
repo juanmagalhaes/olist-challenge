@@ -1,0 +1,39 @@
+@import '~global-styles/variables';
+
+$input-width: 357px;
+$input-height: 44px;
+$input-padding: 0 8px;
+$input-color: #312F4F;
+$input-font-size: 14px;
+$input-border-color: #B6B9D0;
+$input-border: solid 1px $input-border-color;
+$input-inner-shadow: inset 0 0 3px rgba(0, 0, 0, 0.05);
+
+.input {
+  color: $input-color;
+  width: $input-width;
+  height: $input-height;
+  border: $input-border;
+  padding: $input-padding;
+  font-size: $input-font-size;
+  box-shadow: $input-inner-shadow;
+
+  &Default {
+    border-color: $input-border-color;
+  }
+
+  &Danger {
+    border-color: $danger-bg;
+    &:focus { outline: none; }
+  }
+
+  &Waring {
+    border-color: $waring-bg;
+    &:focus { outline: none; }
+  }
+
+  &Success {
+    border-color: $success-bg;
+    &:focus { outline: none; }
+  }
+}

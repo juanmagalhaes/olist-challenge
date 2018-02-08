@@ -1,0 +1,9 @@
+version: '3'
+services:
+  olist-react-app:
+    image: juanmagalhaes/olist-react-challenge:latest
+    stdin_open: true
+    command: yarn test
+    tty: true
+    volumes:
+     - ./src:/usr/src/app/src

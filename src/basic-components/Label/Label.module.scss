@@ -1,0 +1,8 @@
+$label-color: #696D8C;
+$label-line-height: 22px;
+
+.label {
+  color: $label-color;
+  display: inline-block;
+  line-height: $label-line-height;
+}

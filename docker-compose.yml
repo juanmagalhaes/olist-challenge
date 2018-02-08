@@ -1,0 +1,8 @@
+version: '3'
+services:
+  olist-react-app:
+    image: juanmagalhaes/olist-react-challenge:latest
+    ports:
+     - "3000:3000"
+    volumes:
+     - ./src:/usr/src/app/src

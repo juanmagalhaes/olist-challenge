@@ -1,0 +1,12 @@
+$form-padding: 32px 70px 48px;
+$form-group-margin-bottom: 24px;
+
+.form {
+  text-align: left;
+  padding: $form-padding;
+
+  &Group {
+    margin-bottom: $form-group-margin-bottom;
+  }
+}
+

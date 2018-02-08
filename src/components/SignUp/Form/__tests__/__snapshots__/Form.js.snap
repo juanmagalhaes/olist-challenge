@@ -1,0 +1,84 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Form renders 1`] = `
+<form
+  className="form"
+  onSubmit={[Function]}
+>
+  <div
+    className="formGroup"
+  >
+    <Label
+      htmlFor="fullname"
+    >
+      Nome Completo
+    </Label>
+    <Input
+      autoComplete="on"
+      id="fullname"
+      onChange={[Function]}
+      value="John Doe"
+    />
+  </div>
+  <div
+    className="formGroup"
+  >
+    <Label
+      htmlFor="email"
+    >
+      E-mail
+    </Label>
+    <Input
+      autoComplete="on"
+      id="email"
+      onChange={[Function]}
+      type="email"
+      value="foo@bar.com"
+    />
+  </div>
+  <div
+    className="formGroup"
+  >
+    <Label
+      htmlFor="password"
+    >
+      Senha
+    </Label>
+    <Input
+      aria-invalid={true}
+      autoComplete="on"
+      className="inputDefault"
+      id="password"
+      onChange={[Function]}
+      type="password"
+      value="secret123"
+    />
+    <Connect(PasswordIndicator) />
+  </div>
+  <div
+    className="formGroup"
+  >
+    <Label
+      htmlFor="passwordConfirmation"
+    >
+      Confirme sua senha
+    </Label>
+    <Input
+      autoComplete="on"
+      id="passwordConfirmation"
+      onChange={[Function]}
+      type="password"
+      value="secret123"
+    />
+  </div>
+  <div>
+    <Button
+      color="success"
+      disabled={false}
+      type="submit"
+    >
+      Criar conta
+    </Button>
+  </div>
+</form>
+`;

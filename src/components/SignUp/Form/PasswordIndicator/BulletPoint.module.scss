@@ -1,0 +1,46 @@
+@import '~global-styles/variables';
+
+$bullets-margin-top: 8px;
+$bullets-margin-bottom: -4px;
+
+.bullets {
+  margin-top: $bullets-margin-top;
+  margin-bottom: $bullets-margin-bottom;
+}
+
+$bullet-size: 10px;
+$bullet-bg: #EAEAF4;
+$bullet-border-radius: 100%;
+$bullet-point-line-height: 26px;
+
+.bullet {
+  width: $bullet-size;
+  height: $bullet-size;
+  display: inline-block;
+  background: $bullet-bg;
+  border-radius: $bullet-border-radius;
+
+  &Danger {
+    background: $danger-bg;
+  }
+
+  &Waring {
+    background: $waring-bg;
+  }
+
+  &Success {
+    background: $success-bg;
+  }
+
+  &Point {
+    line-height: 26px;
+  }
+}
+
+$text-color: #696D8C;
+$text-margin-left: 8px;
+
+.text {
+  color: $text-color;
+  margin-left: $text-margin-left;
+}

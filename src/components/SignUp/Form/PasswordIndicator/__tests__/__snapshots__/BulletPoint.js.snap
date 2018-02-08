@@ -1,0 +1,60 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Bullet renders 1`] = `
+<div
+  className="bullet"
+/>
+`;
+
+exports[`Bullet renders with danger style 1`] = `
+<div
+  className="bullet bulletDanger"
+/>
+`;
+
+exports[`Bullet renders with success style 1`] = `
+<div
+  className="bullet bulletSuccess"
+/>
+`;
+
+exports[`BulletPoint renders 1`] = `
+<div
+  className="bulletPoint"
+>
+  <Bullet
+    isEmpty={true}
+    isValid={true}
+  />
+  <span
+    className="text"
+  >
+    bar
+  </span>
+</div>
+`;
+
+exports[`BulletPoints renders 1`] = `
+<div
+  className="bullets"
+>
+  <BulletPoint
+    isEmpty={true}
+    key="0"
+    name="minLength"
+    validation={Object {}}
+  />
+  <BulletPoint
+    isEmpty={true}
+    key="1"
+    name="containsUppercase"
+    validation={Object {}}
+  />
+  <BulletPoint
+    isEmpty={true}
+    key="2"
+    name="containsNumber"
+    validation={Object {}}
+  />
+</div>
+`;

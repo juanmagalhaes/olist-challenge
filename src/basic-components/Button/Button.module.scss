@@ -1,0 +1,63 @@
+@import '~global-styles/variables';
+
+$button-width: 375px;
+$button-height: 52px;
+$button-font-size: 18px;
+$button-font-weight: bold;
+$button-margin: 8px 0 0;
+
+@keyframes ripple {
+  0% {
+    transform: scale(0, 0);
+    opacity: 1;
+  }
+  20% {
+    transform: scale(40, 40);
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+    transform: scale(70, 70);
+  }
+}
+
+.button {
+  border: none;
+  cursor: pointer;
+  width: $button-width;
+  margin: $button-margin;
+  height: $button-height;
+  font-size: $button-font-size;
+  font-weight: $button-font-weight;
+  position: relative;
+  overflow: hidden;
+
+  &:after {
+    content: '';
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 5px;
+    height: 5px;
+    background: rgba(255, 255, 255, .5);
+    opacity: 0;
+    border-radius: 100%;
+    transform: scale(1, 1) translate(-50%);
+    transform-origin: 50% 50%;
+  }
+
+  &Clicked {
+    &:focus:not(:active)::after {
+      animation: ripple 1s ease-out;
+    }
+  }
+}
+
+.buttonSuccess {
+  color:$success-cl;
+  background: $success-bg;
+  &:disabled {
+    cursor: not-allowed;
+  }
+}
+

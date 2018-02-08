@@ -1,0 +1,34 @@
+@import '~global-styles/variables';
+
+$indicator-w: 119.67px;
+$indicator-h: 8px;
+$indicator-bg: #EAEAF4;
+$indicator-border-radius: 10px;
+$indicator-margin-right: 8.33px;
+
+.indicators {
+  display: inline-flex;
+}
+
+.indicator {
+  width: $indicator-w;
+  height: $indicator-h;
+  margin-right: $indicator-margin-right;
+  border-radius: $indicator-border-radius;
+
+  &Default {
+    background: $indicator-bg;
+  }
+
+  &Danger {
+    background: $danger-bg;
+  }
+
+  &Waring {
+    background: $waring-bg;
+  }
+
+  &Success {
+    background: $success-bg;
+  }
+}

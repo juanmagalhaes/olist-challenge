@@ -1,0 +1,27 @@
+$login-box-width: 515px;
+$login-box-height: 740px;
+$login-box-background: #FFFFFF;
+$login-box-border-color: #F2F2F2;
+
+.box {
+  text-align: center;
+  width: $login-box-width;
+  height: $login-box-height;
+  background: $login-box-background;
+  border: solid 3px $login-box-border-color;
+}
+
+$logo-margin-top: 58px;
+
+.logo {
+  margin-top: $logo-margin-top;
+}
+
+$heading-size: 22px;
+$heading-margin: 20px 0 0;
+
+.headding {
+  margin: $heading-margin;
+  font-size: $heading-size;
+}
+
