@@ -73,10 +73,10 @@ I gave access to the users @amiltonpaglia, @osantana and @dvainsencher to this r
   $ docker-compose -f docker-compose.prod.yml up
 ```
 
-** OBS: ** you need to create a postgres-data directory on your $HOME.
+ <strong>OBS</strong>: you need to create a postgres-data directory on your $HOME.
 postgres will put dabase there through a volume.
 You can also set $PG_DATA environment variable to change db volume to a custom location.
 
-** OBS2: ** Once all containers are up, you can access the ui challenge through localhost:3000
+ <strong>OBS2</strong>: Once all containers are up, you can access the ui challenge through localhost:3000
 submit the form and check the json result through a GET request to localhost:8000/api/new_account/
 
